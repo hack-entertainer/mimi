@@ -1,0 +1,14 @@
+{
+  "name": "mimi",
+  "version": "1.0.0",
+  "main": "index.js",
+ "scripts": {
+  "build": "tsc",
+  "start": "node build/app.js",
+  "heroku-postbuild": "npm run build"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A demo for Mimi."
+}
